@@ -1,0 +1,638 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+html,
+body {
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* ==========Header================= */
+header {
+    padding-top: 0;
+    box-shadow: 3px 3px 15px 5px rgba(0, 0, 0, 0.2);
+}
+
+.header-content {
+    margin-top: 20px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    margin-left: 40px;
+}
+
+.logo a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 400;
+    color: black;
+    font-style: italic;
+}
+
+.logo img {
+    margin-left: 30px;
+}
+
+.navbar .nav-items ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar li a {
+    margin: 30px;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+}
+
+.navbar li a:hover {
+    color: rgb(30, 48, 80);
+    border-bottom: 2px solid rgb(30, 48, 80);
+}
+
+.navbar1 .nav1-items ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 10px 30px;
+    background-color: antiquewhite;
+    box-shadow: 3px 3px 15px 5px rgba(0, 0, 0, 0.2);
+}
+
+.navbar1 li a {
+    margin: 30px;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+
+}
+
+.navbar1 li a:hover {
+    color: rgb(30, 48, 80);
+    border-bottom: 2px solid rgb(30, 48, 80);
+
+
+}
+
+
+/* ==========Header================= */
+/* ==========Section1================= */
+
+
+.section1 .img {
+    display: flex;
+    height: 800px;
+    width: 90%;
+    background-image: url("img/menjacket.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    left: 20px;
+
+}
+
+.section1 a {
+    position: absolute;
+    left: 46%;
+    top: 65%;
+    font-size: 40px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    padding: 15px;
+}
+
+
+
+
+
+.section1 h1 {
+    display: flex;
+    font-size: 70px;
+    position: absolute;
+    left: 35%;
+    top: 40%;
+    color: white;
+    text-align: center;
+}
+
+
+
+
+/* ==========Section1================= */
+/* ==========Sidebar================= */
+
+
+
+.three-features {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 40%;
+    left: 95%;
+    font-size: 40px;
+
+}
+
+.three-features div {
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+
+
+
+
+/* ==========Sidebar================= */
+/* ==========Section2================= */
+
+.section2 #pic1 {
+    display: flex;
+    height: 700px;
+    width: 40%;
+    background-image: url("img/foto1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    left: 20px;
+    margin-top: 50px;
+}
+
+.section2 #pic2 {
+    display: flex;
+    height: 700px;
+    width: 45%;
+    background-image: url("img/foto2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 50px;
+    margin-right: 135px;
+}
+
+.section-pics {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+#pic1 h1 {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    font-size: 70px;
+}
+
+#pic1 a {
+    text-decoration: none;
+    color: white;
+}
+
+#pic1 a:hover {
+    color: #a67a4b;
+}
+
+#pic2 h1 {
+    position: absolute;
+    top: 54%;
+    right: 22%;
+    font-size: 70px;
+}
+
+#pic2 a {
+    text-decoration: none;
+    color: white;
+}
+
+#pic2 a:hover {
+    color: #a67a4b;
+}
+
+
+
+
+
+/* ==========Section2================= */
+
+/* ==========Section3================= */
+
+.section3 {
+
+    background-color: #f0f0f0;
+    margin-top: 10%;
+    padding-top: 70px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 20px;
+}
+
+.section3-content {
+    display: flex;
+}
+
+.article {
+    flex: 1;
+    text-align: center;
+    margin: 5px 5px 40px 5px;
+    padding-bottom: 40px;
+    background-color: white;
+}
+
+.article img {
+    padding-top: 20px;
+    padding-left: 31px;
+    width: 80%;
+    height: auto;
+}
+
+.article h3 {
+    margin-top: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+
+}
+
+.article h4 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.section3 h1 {
+    position: absolute;
+    top: 5%;
+    left: 45%;
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 2px;
+
+}
+
+
+
+
+
+
+/* ==========Section3================= */
+/* section4 */
+
+.section4 #picture1 {
+    display: flex;
+    height: 500px;
+    width: 30%;
+    background-image: url("img/fotokepuca.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+
+}
+
+.section4 #picture2 {
+    display: flex;
+    height: 500px;
+    width: 30%;
+    background-image: url("img/fotoclothes.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.section4 #picture3 {
+    display: flex;
+    height: 500px;
+    width: 30%;
+    background-image: url("img/outfit.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.more-pics {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+
+
+
+/* section4 */
+/* ===========section5================ */
+.section5 {
+
+    background-color: #f0f0f0;
+    margin-top: 10%;
+    padding-top: 70px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 20px;
+}
+
+.section5-content {
+    display: flex;
+}
+
+.article5 {
+    flex: 1;
+    justify-content: space-between;
+    margin: 5px 76% 0px 20px;
+    padding-bottom: 40px;
+
+
+
+}
+
+.article5 i {
+    font-size: 30px;
+    padding: 20px 20px 20px 20px;
+    width: 80%;
+    height: auto;
+}
+
+.article5 h3 {
+    margin-top: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 100;
+    font-size: 25px;
+
+}
+
+/* ===========section5================ */
+/* ===================FOOTER===================== */
+
+.footer {
+    width: 90%;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+
+}
+
+.footer-content {
+    display: flex;
+    width: 90%;
+    margin-left: 20px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.footer li {
+    list-style: none;
+}
+
+.footer .navigation,
+a {
+
+    line-height: 35px;
+    text-decoration: none;
+    color: black;
+    margin-right: 80px;
+}
+
+.footer .contact {
+    margin-left: 30px;
+    line-height: 45px;
+}
+
+.footer .social {
+    text-align: left;
+    margin-left: 20%;
+}
+
+.footer-content {
+    position: relative;
+    font-size: 15px;
+
+}
+
+.footer-content .news {
+    position: absolute;
+    top: 0;
+    left: 97%;
+    font-size: 25px;
+
+}
+
+.footer-content .news h5 {
+    position: relative;
+    right: 128px;
+    font-family: 'Roboto Condensed', sans-serif;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.footer-content form {
+    position: absolute;
+    right: 95px;
+    text-align: center;
+}
+
+.footer-content #email {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    float: left;
+    padding: 5px 47px;
+}
+
+.footer-content #submit {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    float: left;
+    padding: 5px 50px;
+    margin-top: 10px;
+}
+
+
+
+
+
+/* ===================FOOTER===================== */
+
+/* signup */
+
+
+
+
+
+
+
+
+
+
+.clothes_container {
+    width: 95%;
+    margin-inline: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.image-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+}
+
+.image-list img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.image-list li {
+    flex-basis: calc(33.33% - 10px);
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+
+.image-list a:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.image-list p {
+
+    margin-top: 10px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+    margin-left: -80px;
+}
+
+.buy {
+    font-size: 15px;
+    margin-left: 78px;
+    padding: 2px 15px;
+    margin-left: -75px;
+    border-radius: 5px;
+}
+
+.buy:hover {
+    background-color: rgb(188, 188, 188);
+}
+
+.image-list span {
+    color: #ff6f3c;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: -80px;
+}
+
+.categories-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 60px;
+
+}
+
+.categories-list a {
+    border: 2px solid red;
+    position: relative;
+    top: 220px;
+    border-radius: 20px;
+    padding: 30px;
+    background-image: url("img/menjacket.jpg");
+
+}
+
+.categories-list li:hover {
+    transform: scale(1.1);
+}
+
+
+
+.aboutus {
+    font-size: 18px;
+    padding: 20px 60px;
+    letter-spacing: 0.1em;
+}
+
+
+
+.products a {
+    margin-left: 20px;
+}
+
+.products td {
+    border: 1px solid black;
+    padding: 10px;
+
+}
+
+.remove a {
+    padding-left: 20px;
+}
+
+.user-info {
+    font-size: 25px;
+}
+
+.user-intro {
+    font-size: 30px;
+}
+
+.user-button a {
+    font-size: 20px;
+    margin-top: 10px;
+    box-shadow: 0 0 3px black;
+    background-color: #d0d0d0;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.user-button a:hover {
+    background-color: #e0dede;
+}
+
+.regjistri {
+    font-size: 20px;
+}
+
+.regjistri input {
+    font-size: 20px;
+    border-style: none;
+}
